@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    font-family: 'Comic Sans MS', Cursive, sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align everything to the left */
+    justify-content: center; /* Center vertically */
+    height: 100vh;
+    width: 100vh;
+}
+
+
+.topbar {
+    background-color: rgb(122, 202, 252);
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+
+
+
+
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+
+.sidebar {
+    background-color: rgb(122, 202, 252);
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px; /* Adjust the width of the sidebar as needed */
+    height:250px;
+}
+
+
+.dollarbar{
+background-color: rgb(200, 230, 154);
+padding: 13px 13px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: space-around;
+width: 100%;
+}
+
+
+.dollarbar button{
+    background-color: rgb(122, 202, 252);
+    border: none;
+    border-radius: 80%;
+    padding: 10px 15px;
+   
+}
+
+
+.footerbar {
+    background-color: rgb(122, 202, 252);
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+
